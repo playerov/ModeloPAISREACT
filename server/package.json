@@ -1,0 +1,25 @@
+{
+  "name": "paises-api-server",
+  "version": "1.0.0",
+  "description": "Servidor API Mock para el proyecto Catálogo de Países",
+  "type": "module",
+  "main": "mockServer.js",
+  "scripts": {
+    "start": "node mockServer.js",
+    "dev": "node mockServer.js"
+  },
+  "keywords": [
+    "api",
+    "mock",
+    "paises",
+    "countries",
+    "server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
+
